@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <title>Coffee Hub</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="main">
+        
+        <a href="#">
+            <img src="images/RiseGrind-logo-1.png" class="space_image" alt="RiseGrind-logo">
+        </a>
+        
+
+        <div class="title_1"> Fuel Your Day</div>
+        
+    <div class="title_2 more_space"> with the Perfect Brew.</div>
+
+
+        <button class="menu_button" id="redirectButton">View Menu</button>
+
+
+
+        <script>
+    function checkScreenWidth() {
+        if (window.innerWidth <= 768) {
+            alert("Please use a laptop or desktop for the best experience."); // Alert message for mobile users
+        }
+    }
+
+    checkScreenWidth();
+
+    window.addEventListener('resize', checkScreenWidth);
+
+
+// Get the button element
+const redirectButton = document.getElementById('redirectButton');
+
+// Add a click event listener to the button
+redirectButton.addEventListener('click', function() {
+    window.location.href = 'https://rudrakshdev.github.io/Task-3-CAMPER-CAFE/cafe.html'; 
+});
+
+
+        </script>
+
+    </div>
+</body>
+</html>
